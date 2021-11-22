@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/../02-UT Project/01-ut project/JunitProject-MircoFocus-Student/JunitMockProject-MircoFocus-Student.iml" filepath="$PROJECT_DIR$/../02-UT Project/01-ut project/JunitProject-MircoFocus-Student/JunitMockProject-MircoFocus-Student.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../02-UT Project/01-ut project/JunitProject-MircoFocus-Student/JunitProject-MircoFocus-Student.iml" filepath="$PROJECT_DIR$/../02-UT Project/01-ut project/JunitProject-MircoFocus-Student/JunitProject-MircoFocus-Student.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../UT/UT.iml" filepath="$PROJECT_DIR$/../UT/UT.iml" />
+    </modules>
+  </component>
+</project>

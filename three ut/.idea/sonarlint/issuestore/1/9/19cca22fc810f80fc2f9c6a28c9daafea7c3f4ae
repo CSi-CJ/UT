@@ -1,0 +1,7 @@
+
+S
+java:S1068"8Remove this unused "wasLastFileNameValid" private field.(‚—à÷øÿÿÿÿ
+~
+java:S1450"cRemove the "wasLastFileNameValid" field and declare it as a local variable in the relevant methods.(‚—à÷øÿÿÿÿ
+]	java:S125"<This block of commented-out lines of code should be removed.(£øÐâøÿÿÿÿ8¨Ì¨³ä.
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(›ÿÚ¥üÿÿÿÿ

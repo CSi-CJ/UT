@@ -1,0 +1,11 @@
+
+a
+java:S2184"FCast one of the operands of this multiplication operation to a "long".(‹À¦™úÿÿÿÿ
+e	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(£¨ƒI
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ó‡œúÿÿÿÿ
+\
+java:S2142"FEither re-interrupt this method or rethrow the "InterruptedException".(ä ¹€
+3
+java:S2119"Save and re-use this "Random".(£¨ƒI
+\
+java:S1126"AReplace this if-then-else statement by a single return statement.(µ¿œ¥øÿÿÿÿ

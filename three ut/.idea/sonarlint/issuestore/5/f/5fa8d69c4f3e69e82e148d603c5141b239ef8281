@@ -1,0 +1,14 @@
+
+\
+java:S1126"AReplace this if-then-else statement by a single return statement.(µ¿œ¥øÿÿÿÿ
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(Û›–Øøÿÿÿÿ
+h	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ð›‰´þÿÿÿÿ
+J
+java:S1172"/Remove this unused method parameter "fileName".(Ð›‰´þÿÿÿÿ
+e	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(£¨ƒI
+3
+java:S2119"Save and re-use this "Random".(£¨ƒI
+h
+java:S2184"FCast one of the operands of this multiplication operation to a "long".(æÓ Öýÿÿÿÿ8½Ö˜²ä.
+c
+java:S2142"FEither re-interrupt this method or rethrow the "InterruptedException".(ä ¹€8½Ö˜²ä.

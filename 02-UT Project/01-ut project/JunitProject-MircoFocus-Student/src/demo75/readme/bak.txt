@@ -1,0 +1,100 @@
+package demo23.simple1;
+
+public class Calculator {
+	public static int add(String numbers){
+		int sum=0;
+		if(numbers==null){
+			return 0;
+		}
+		if(numbers.trim().equals("")){
+			return 0;	
+		}
+		
+		String splitNumbers[]=numbers.split(",");
+		for(String number:splitNumbers){
+			int num;
+			try {
+				num = Integer.parseInt(number);
+			} catch (Exception e) {
+				throw new IllegalArgumentException("参数参数含有非法数字"+number);
+			}
+			if(num<=0)
+				throw new IllegalArgumentException("参数不能为负数,负数"+num);
+			if(num>1000)
+				num=0;
+			sum+=num;			
+		}
+		return sum;		
+	}
+}
+
+
+package demo23.simple1;
+
+import static org.junit.Assert.*;
+
+import org.junit.Test;
+
+public class CalculatorTest {
+	@Test
+	public final void testAdd_如果串是NUll_return_zero() {				
+		assertEquals(0,Calculator.add(null));
+	}
+	
+	@Test
+	public final void testAdd_如果串是空串_return_zero() {
+		assertEquals(0,Calculator.add(""));
+		assertEquals(0,Calculator.add("    "));		
+	}
+	
+	@Test
+	public final void testAdd_单一数字_return_number() {
+		assertEquals(1,Calculator.add("1"));
+		assertEquals(2,Calculator.add("2"));
+		assertEquals(13,Calculator.add("13"));		
+	}
+	
+	@Test
+	public final void testAdd_多个数字_return_number() {
+		assertEquals(6,Calculator.add("1,2,3"));
+		assertEquals(60,Calculator.add("10,20,30"));			
+	}
+	@Test
+	public final void testAdd_多个数字含有大于1000_return_number() {
+		assertEquals(1005,Calculator.add("1000,2,3"));
+		assertEquals(5,Calculator.add("1001,2,3"));			
+	}
+	
+	@Test(expected = IllegalArgumentException.class)
+	public final void testAdd_多个数字含有负数_抛出异常() {
+		assertEquals(5,Calculator.add("-1,2,3"));				
+	}
+	
+
+	
+	@Test
+	public final void testAdd_多个数字含有负数_抛出异常_检查异常消息() {
+		try{
+			assertEquals(5,Calculator.add("-1,2,3"));
+			fail("竟然没有抛出异常");
+		}catch(IllegalArgumentException ex){
+			String msg="参数不能为负数,负数-1";
+			assertEquals(msg,ex.getMessage());
+		}						
+	}
+	
+	@Test(expected = IllegalArgumentException.class)
+	public final void testAdd_含有非法数字_抛出异常() {
+		assertEquals(5,Calculator.add("a"));				
+	}
+	@Test
+	public final void testAdd_含有非法数字_抛出异常_检查异常消息() {
+		try{
+			assertEquals(5,Calculator.add("1,2,3,abc"));
+			fail("竟然没有抛出异常");
+		}catch(IllegalArgumentException ex){
+			String msg="参数参数含有非法数字"+"abc";
+			assertEquals(msg,ex.getMessage());
+		}						
+	}
+}

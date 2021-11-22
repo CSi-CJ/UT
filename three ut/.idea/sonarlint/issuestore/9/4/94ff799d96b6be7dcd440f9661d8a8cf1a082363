@@ -1,0 +1,12 @@
+
+e
+java:S1192!"ODefine a constant instead of duplicating this literal "this is a test" 4 times.(ÚÊˆ•
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(¯¬ûÂûÿÿÿÿ
+~
+java:S1450"cRemove the "wasLastFileNameValid" field and declare it as a local variable in the relevant methods.(‚—à÷øÿÿÿÿ
+N	java:S106!"9Replace this use of System.out or System.err by a logger.(ÚÊˆ•
+N	java:S106""9Replace this use of System.out or System.err by a logger.(ÚÊˆ•
+N	java:S106#"9Replace this use of System.out or System.err by a logger.(ÚÊˆ•
+N	java:S106$"9Replace this use of System.out or System.err by a logger.(ÚÊˆ•
+S
+java:S1068"8Remove this unused "wasLastFileNameValid" private field.(‚—à÷øÿÿÿÿ

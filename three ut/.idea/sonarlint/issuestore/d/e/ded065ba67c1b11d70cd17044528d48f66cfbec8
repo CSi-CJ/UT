@@ -1,0 +1,8 @@
+
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(”±Ýæøÿÿÿÿ
+t	java:S116"_Rename this field "LowPressureThreshold" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ìé½î
+z	java:S116"`Rename this field "HighPressureThreshold" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÿÏØ­üÿÿÿÿ
+7
+java:S1170"!Make this final field static too.(Ìé½î
+<
+java:S1170"!Make this final field static too.(ÿÏØ­üÿÿÿÿ

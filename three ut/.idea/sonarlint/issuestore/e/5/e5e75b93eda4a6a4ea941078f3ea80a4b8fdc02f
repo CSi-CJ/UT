@@ -1,0 +1,11 @@
+
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(”±İæøÿÿÿÿ
+j
+java:S1128"TRemove this unnecessary import: same package classes are always implicitly imported.(ÀÛ°‡
+ 
+java:S4144"„Update this method so that its implementation is not identical to "a_pressure_value_out_of_range_should_raise_the_alarm" on line 19.(‡Ê©ÿÿÿÿÿ
+c	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ïâ†×
+h	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ö’Şùÿÿÿÿ
+h	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‡Ê©ÿÿÿÿÿ
+F
+java:S5960"+Remove this assertion from production code.(ÅŸç›üÿÿÿÿ

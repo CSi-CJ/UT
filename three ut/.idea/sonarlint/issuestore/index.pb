@@ -1,0 +1,59 @@
+
+O
+src/demo00/LogAnalyzerTest.java,9\c\9cb4a4322d7c76a49bce9e1c99ef66bddb42fd76
+T
+$src/demo01/FileExtensionManager.java,5\f\5fa8d69c4f3e69e82e148d603c5141b239ef8281
+K
+src/demo01/LogAnalyzer.java,8\9\89dda07a671601a9aa9721e9b0ce2e94f252f356
+K
+src/demo32/LogAnalyzer.java,9\4\94ff799d96b6be7dcd440f9661d8a8cf1a082363
+O
+src/demo01/LogAnalyzerTest.java,2\1\21b0d7b8e23e5d5bedcf6208d748354a6c12b920
+O
+src/demo32/LogAnalyzerTest.java,4\7\477a698510a75959ef14a25b38704d3fe0fb29c1
+Q
+!src/demo03/IExtensionManager.java,d\9\d94e22f094fe749c0ea123e07ab3af34e9a3946b
+D
+src/demo03/Stub.java,c\b\cb49fbfdf24ea8cc6588d9144cab98477dacaa31
+O
+src/demo03/LogAnalyzerTest.java,5\b\5ba349ded668860a1e7b61ca9f1d8a5a4af92d79
+K
+src/demo33/LogAnalyzer.java,7\e\7eb78b629c496534eee55e4b16014c9cd5fc92b6
+O
+src/demo33/TestLogAnalyzer.java,6\4\64989f40b99d353d20d35f719991b355ece1e653
+T
+$src/demo33/StubExtensionManager.java,9\a\9ad8b535a71d9a60dcf32ea458450ce932c5af8b
+T
+$src/demo03/FileExtensionManager.java,e\7\e7dd7aa7ee83c665729d9171a464bbcf97079857
+K
+src/demo03/LogAnalyzer.java,1\9\19cca22fc810f80fc2f9c6a28c9daafea7c3f4ae
+T
+$src/demo33/FileExtensionManager.java,2\7\273ad48d378dca07165c078462dc82028de5c566
+E
+src/demo10/Alarm.java,d\e\ded065ba67c1b11d70cd17044528d48f66cfbec8
+M
+src/demo10/AlarmTestCase.java,e\5\e5e75b93eda4a6a4ea941078f3ea80a4b8fdc02f
+F
+src/demo10/Sensor.java,b\1\b18401f6d52924e761bdaa8f6c5ffba2260732eb
+G
+src/demo10/ISensor.java,6\e\6ee0d397af3a092f1ddecb07189b3e55a89f26e4
+E
+src/demo10/readme.txt,5\a\5a64a4a52d577f3bf2c74e30d65ba07a240dddf7
+M
+src/demo81/SensorAdapter.java,7\f\7f71eef095a532261db6dbc00c54e2a2f255e62a
+G
+src/demo81/ISensor.java,9\d\9d1544663552204b266ccf2494ecd9f8f0dde39b
+J
+src/demo81/SensorStub.java,4\e\4ed661e86c74b638a08fa4d584530314a67370d4
+M
+src/demo81/AlarmTestCase.java,c\7\c76713f90a7b29c009405e40bd2004b22495d637
+E
+src/demo81/Alarm.java,2\9\294f21896fceb41d5be8b0db94ed5822ed3d7e15
+F
+src/demo81/Sensor.java,f\b\fb9ea8a33061f1309090b47940c200fcca97576e
+G
+src/demo51/BookDAL.java,a\a\aa4e3df400486d16c3df75b76bd9e5c5c1a21d7f
+F
+src/demo50/MyStub.java,9\a\9a8b86b86ab98c4a51de6d3ec94c3a34c610bf78
+J
+src/demo50/MyTestCase.java,0\b\0bd3b0b48d0cf538bc46ca43bc8f95271c9cb501
